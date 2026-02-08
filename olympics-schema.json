@@ -1,0 +1,11 @@
+{
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "year": { "type": "integer" },
+      "city": { "type": "string" }
+    },
+    "required": ["year", "city"]
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "nom": { "type": "string" },
+      "regio": { "type": "string" }
+    },
+    "required": ["nom", "regio"]
+  }
+}

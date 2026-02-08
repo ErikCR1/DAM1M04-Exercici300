@@ -1,0 +1,11 @@
+{
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "especie": { "type": "string" },
+      "tipus": { "type": "string" }
+    },
+    "required": ["especie", "tipus"]
+  }
+}

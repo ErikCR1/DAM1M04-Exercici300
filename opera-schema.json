@@ -1,0 +1,11 @@
+{
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "titol": { "type": "string" },
+      "compositor": { "type": "string" }
+    },
+    "required": ["titol", "compositor"]
+  }
+}

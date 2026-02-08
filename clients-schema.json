@@ -1,0 +1,14 @@
+{
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "id": { "type": "string" },
+      "name": { "type": "string" },
+      "age": { "type": "integer" },
+      "contact": { "type": "object" },
+      "purchases": { "type": "array" }
+    },
+    "required": ["id", "name"]
+  }
+}
